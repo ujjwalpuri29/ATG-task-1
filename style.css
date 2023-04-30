@@ -1,0 +1,227 @@
+body {
+  font-family: "IBM Plex Sans";
+}
+
+nav {
+  height: 72px;
+}
+
+.signup_btn {
+  color: #2e2e2e;
+}
+
+.signup_btn:active {
+  border: none;
+}
+
+.free {
+  color: #2f6ce5;
+}
+
+.search-label {
+  width: 360px;
+}
+
+.search-input {
+  font-size: 14px !important;
+}
+
+.search-input:focus {
+  box-shadow: none !important;
+}
+
+.banner {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(https://images.unsplash.com/photo-1455894127589-22f75500213a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1087&q=80);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 440px;
+}
+
+.modal-bg {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  z-index: 1500;
+}
+
+.signupModal {
+  z-index: 10000;
+}
+
+.intro {
+  background-color: #effff4;
+  color: #008a45;
+}
+
+.login-tool {
+  color: #3d3d3d;
+}
+
+.login-tool span {
+  color: #2f6ce5;
+}
+
+.vector img {
+  height: 320px;
+  width: auto;
+}
+
+.fab-container {
+  bottom: 20px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  cursor: pointer;
+  background: linear-gradient(180deg, #ff5c5c 0%, #f0568a 100%);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18), 0px 0px 2px rgba(0, 0, 0, 0.08);
+  z-index: 999;
+}
+
+.btn-grey {
+  background-color: #f1f3f5;
+}
+
+.fs-lg-6 {
+  font-size: 18px;
+}
+
+.fs-lg-5 {
+  font-size: 20px;
+}
+
+.fs-lg-4 {
+  font-size: 22px;
+}
+
+.fs-lg-3 {
+  font-size: 24px;
+}
+
+.fs-lg-2 {
+  font-size: 28px;
+}
+
+.fs-lg-1 {
+  font-size: 36px;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #212529;
+}
+
+.card-img-top {
+  height: 220px;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+}
+
+.img1 {
+  background-image: url("https://s3-alpha-sig.figma.com/img/8f0b/5f52/59515bfc8d2d4ff8928be097376153e9?Expires=1683504000&Signature=R0qfliLcl0NUIsKSP0pagCwdqi7w3CfIuEV8LItu3fVSZBSICGlMPzGfn5IUydJFJe9m5CxgdWecQBpFyOrjZr0LCgt5zUSRIXXMkS91lJ45ljvKVDa7gT3vLSjdTVRamUGgpDUMWex0q9vbCwwkBdddi~kGNaIFjNxP8itkstTPRsVZTcAGmRc84GFUjyKai9mawu7VhwA1kzXNn7c~NMFVMCQ-rNeCPN8z1lAEi9wyF6sqciubk38iVUH9l1qvS1QmcTrHxlluVQi~sEn74dw5ddnO1O1Ig-zY-sa6e8VIBzKmOZFMRyqttYF3CHcvsFDpujGpXi9QKNiwBZmbzQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+
+.img3 {
+  background-image: url("https://s3-alpha-sig.figma.com/img/bdc0/79a9/a2e530610a1b91c9682ba7889c87c1b2?Expires=1683504000&Signature=IGqsakk0y5Lni3DKcSWGDHoPEKWMiI8BfAnx~vU7OKytDr5Dw4wsUC2-lFDvlfvxlbnJdscpDmpIs1XLFG3MP9cHWoF3pd~6kA1Fi1rv9QRuAetbCopNUh4gwbdFyA~xhtUNY~~tpsdv2WvGhaBbMu2oAODuwBmP1717JMYL~IjoXCKLjwNB4nj5a2UlFPHyxvE8ju36-Kvigd9n7~oFKBP2ox7olD4aNgGTonQjpwXAisedNvV5~sypF1Bpm0a0o24Ot25NDHCp9VtcWudRZYEEEbBHMA2klptXLWYtrsyS5WAvf95srio4ef8WtijjcY8sh~3zd4AWQ1ClFnDS1Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+}
+
+.author {
+  font-weight: 600;
+  color: #212529;
+}
+
+.views {
+  color: #495057;
+  font-weight: 500;
+}
+
+.website {
+  color: #e56135 !important;
+  font-weight: 600;
+}
+
+.userImgCont {
+  clip-path: circle(40%);
+}
+
+.userImg {
+  width: 48px;
+  height: 48px;
+  background-image: url(./Rectangle\ 3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.job {
+  color: #02b875;
+  font-weight: 600;
+}
+
+.tag {
+  font-weight: 500;
+}
+
+.location-info {
+  color: #686868;
+  font-size: 12px;
+}
+
+@media (max-width: 992px) {
+  .modal-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .group_btn {
+    height: 28px;
+    font-size: 12px !important;
+  }
+
+  .banner {
+    height: 240px;
+  }
+
+  .userImg {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .fs-sm-6 {
+    font-size: 12px !important;
+  }
+
+  .fs-sm-5 {
+    font-size: 13px !important;
+  }
+
+  .fs-sm-4 {
+    font-size: 14px !important;
+  }
+
+  .fs-sm-3 {
+    font-size: 15px !important;
+  }
+
+  .fs-sm-2 {
+    font-size: 16px !important;
+  }
+
+  .fs-sm-1 {
+    font-size: 17px !important;
+  }
+  .fs-sm-7 {
+    font-size: 18px !important;
+  }
+}
